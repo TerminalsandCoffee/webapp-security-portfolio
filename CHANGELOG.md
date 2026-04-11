@@ -6,15 +6,19 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-### Project 1 — WAF Rule Engine Simulator
+### Changed — Portfolio Structure
+- Renamed the Terraform project folder to `01-aws-waf-logging-integration-module`
+- Reframed the portfolio around three role-aligned cloud security projects
+
+### Project 2 — Smart WAF Analyzer
 - Planned
 
-### Project 3 — HTTP Request Analyzer
+### Project 3 — Security Incident Triage Assistant
 - Planned
 
 ## [1.0.0] - 2026-04-11
 
-### Added — Project 2: AWS WAFv2 Terraform Module
+### Added — Project 1: AWS WAF + Logging Integration Module
 - AWS WAFv2 WebACL with 8 rule groups covering OWASP Top 10
 - Managed rule groups: CommonRuleSet, SQLiRuleSet, KnownBadInputsRuleSet, AmazonIpReputationList, AnonymousIpList
 - Custom rules: rate limiting, geo-blocking, IP allowlist/blocklist

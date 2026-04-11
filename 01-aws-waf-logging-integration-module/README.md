@@ -1,8 +1,8 @@
-# AWS WAFv2 Terraform Module
+# AWS WAF + Logging Integration Module
 
 Reusable Terraform module that provisions AWS WAFv2 with comprehensive OWASP Top 10 protection, rate limiting, geo-blocking, IP reputation filtering, and full CloudWatch observability.
 
-Designed for enterprise environments where compliance, tagging, and phased rollout matter.
+Designed for enterprise environments where operational visibility, phased rollout, and reusable security controls matter.
 
 ## Features
 
@@ -22,7 +22,7 @@ Designed for enterprise environments where compliance, tagging, and phased rollo
 
 ```hcl
 module "waf" {
-  source = "./project-2-waf-terraform"
+  source = "./01-aws-waf-logging-integration-module"
 
   environment       = "dev"
   sensitivity_level = "low"
@@ -34,7 +34,7 @@ module "waf" {
 
 ```hcl
 module "waf" {
-  source = "./project-2-waf-terraform"
+  source = "./01-aws-waf-logging-integration-module"
 
   environment          = "production"
   sensitivity_level    = "high"
@@ -119,6 +119,10 @@ This rule blocks traffic from VPNs, Tor exit nodes, and hosting providers. While
 ## Compliance
 
 See [compliance-matrix.md](compliance-matrix.md) for the full OWASP Top 10 mapping with Imperva Cloud WAF equivalents.
+
+## Portfolio Context
+
+This project is the infrastructure and integration foundation of the portfolio. It is meant to pair with a future WAF analytics project and an incident triage project so the overall repo demonstrates deployment, monitoring, and response workflows together.
 
 ## Requirements
 
