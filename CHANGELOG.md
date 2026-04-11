@@ -13,7 +13,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Project 2 — Smart WAF Analyzer
 - Planned
 
-### Project 3 — Security Incident Triage Assistant
+### Project 3 — Security Architecture Solutions Lab
 - Planned
 
 ## [1.0.0] - 2026-04-11

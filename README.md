@@ -1,6 +1,6 @@
 # Web Application Security Portfolio
 
-Hands-on cloud application security projects focused on WAF operations, observability, incident response, and customer-facing security analysis.
+Hands-on cloud application security projects focused on WAF operations, observability, architecture guidance, and customer-facing security analysis.
 
 ## Portfolio Roadmap
 
@@ -26,10 +26,10 @@ Planned analytics project for ingesting WAF logs, summarizing attack activity, i
 
 Status: Planned
 
-### 3. Security Incident Triage Assistant
+### 3. Security Architecture Solutions Lab
 
-Located in [`03-security-incident-triage-assistant`](./03-security-incident-triage-assistant/).
+Located in [`03-security-architecture-solutions-lab`](./03-security-architecture-solutions-lab/).
 
-Planned incident-response project for turning security alerts and log bundles into concise triage summaries, severity guidance, likely root cause, and remediation next steps for operators and customers.
+Planned architecture and advisory project for OWASP-focused mitigation playbooks, customer scenario walkthroughs, and reference security designs that explain tradeoffs clearly.
 
 Status: Planned
