@@ -1,6 +1,6 @@
 # Security Architecture Solutions Lab
 
-Planned architecture and advisory project for working through OWASP-driven design decisions, customer scenarios, and cloud security solution tradeoffs.
+Architecture and advisory project for working through OWASP-driven design decisions, customer scenarios, and cloud security solution tradeoffs.
 
 ## Goal
 
@@ -16,12 +16,18 @@ Build a tool that can:
 
 This project is intended to demonstrate security architecture judgment, customer communication, and solution design workflows that align with cloud security engineering and enterprise services work.
 
-## Planned Structure
+## Structure
 
 - `owasp-top-10/` for mitigation playbooks and control mapping
 - `customer-scenarios/` for role-play style advisory cases
 - `reference-architectures/` for solution diagrams and design notes
 
+## Current Contents
+
+- An OWASP A03 injection mitigation playbook
+- A customer scenario focused on API false positives, bot pressure, and rollout guidance
+- A reference architecture for protecting a public web application with WAF and centralized logging
+
 ## Status
 
-Planned
+In progress
