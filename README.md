@@ -33,3 +33,11 @@ Located in [`03-security-architecture-solutions-lab`](./03-security-architecture
 Planned architecture and advisory project for OWASP-focused mitigation playbooks, customer scenario walkthroughs, and reference security designs that explain tradeoffs clearly.
 
 Status: Planned
+
+### 4. OWASP WebApp Security Lab
+
+Standalone repository: [TerminalsandCoffee/owasp-webapp-security-lab](https://github.com/TerminalsandCoffee/owasp-webapp-security-lab), intentionally published separately rather than nested inside this portfolio repo.
+
+Hands-on OWASP security testing lab built around Juice Shop, AWS, Docker, GitHub Actions, SAST, DAST, container scanning, secrets detection, HTML/PDF reporting, and severity-based build failure thresholds.
+
+Status: In progress
